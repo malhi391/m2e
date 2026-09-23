@@ -1,0 +1,21 @@
+[build-system]
+requires = ["setuptools>=61"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "pico2flasher"
+version = "0.1.0"
+description = "Universal firmware flasher for the Raspberry Pi Pico 2 (RP2350)"
+readme = "README.md"
+license = { text = "MIT" }
+requires-python = ">=3.8"
+dependencies = []
+
+[project.optional-dependencies]
+serial = ["pyserial>=3.4"]
+
+[project.scripts]
+pico2flasher = "pico2flasher.cli:main"
+
+[tool.setuptools]
+packages = ["pico2flasher"]

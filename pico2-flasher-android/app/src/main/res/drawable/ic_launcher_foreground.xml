@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:width="108dp"
+    android:height="108dp"
+    android:viewportWidth="108"
+    android:viewportHeight="108">
+    <!-- Chip body -->
+    <path android:fillColor="#FFFFFF" android:pathData="M34,34h40v40h-40z" />
+    <!-- Pins -->
+    <path android:fillColor="#FFFFFF"
+        android:pathData="M40,28h4v6h-4zM52,28h4v6h-4zM64,28h4v6h-4zM40,74h4v6h-4zM52,74h4v6h-4zM64,74h4v6h-4zM28,40h6v4h-6zM28,52h6v4h-6zM28,64h6v4h-6zM74,40h6v4h-6zM74,52h6v4h-6zM74,64h6v4h-6z" />
+    <!-- Lightning bolt -->
+    <path android:fillColor="#FFC107" android:pathData="M57,38L44,57h9l-4,13l14,-20h-9z" />
+</vector>
